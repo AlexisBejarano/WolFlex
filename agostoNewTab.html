@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>WolFlex Agosto</title>
+
+	<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/stylepos.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+		<!--Librerias-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
+
+
+	<style type="text/css">
+		@media only screen and (max-width: 1113px){
+	body{
+		width:100%;
+	}
+	html{ background-color: #fff; }
+	/* INICIO PREMIOS TOP*/
+	
+	#cont1{
+		max-width: 1030px;
+	}
+	.pricing-table-cont1{
+		height: 415px;
+	}
+	.pricing-table-cont2{
+		height: 415px;
+	}
+	.pricing-table-cont3{
+		height: 415px;
+	}
+	.pricing-table-cont4{
+		height: 415px;
+	}
+	.pricing-table-cont5{
+		height: 415px;
+	}
+	.imgposcolnew{
+		width: 195px;
+		height: 415px;
+	}
+	.imgposnewup{
+		width: 195px;
+		height: 415px;
+	}
+	.pricing-wrap-top{
+		width: 195px;
+	}
+	/* FIN PREMIOS TOP*/
+	/* INICIO ANTIPREMIOS TOP*/
+	#cont4a{
+		max-width: 780px;
+	}
+	/* FIN ANTIPREMIOS TOP*/
+}
+	</style>
+</head>
+<body>
+
+<div id="content">
+  <div class="row buttonContainer">
+  	<button  class="col" id="startButton">Star Confetti</button>
+  	/* https://drive.google.com/drive/folders/1uLw4xnFOCCxwIJXHeW0Fj0HC3tEbKRFe*/
+    <button  class="col" id="stopButton">Stop Confetti</button>
+  </div>
+</div>
+<canvas id="canvas"></canvas>
+
+				<div class="imgfondcont2">
+					<div class="imgfondcont3"></div>
+				</div>
+
+				<a href="index.html">
+					<label class="iconobtnreg">
+						<div class="regresar">Regresar</div>
+					</label>
+				</a>
+
+				<div class="container-fluid">
+					<div class="banner">
+						<h2>JUGADORES DESTACADOS</h2>
+						<h4>MES DE AGOSTO</h4>
+					</div>
+					
+					<div id="cont1" class="row" >
+						<div class="col imgposcolnew">
+							<center>
+							<div class="wrap1">
+								<div class="miswitch1">
+									<div class="swicht-btn" id="swicht-btn">
+										<div class="pricing-wrap-top">
+											<div class="pricing-table">
+												<a>
+												<div class="pricing-table-cont1">
+														<div class="pricing-table-month1">
+															<div class="pricing-table-head">
+															    <img class="imgposnewup" src="img/Agosto/Premios/MejorWinrate.png">
+															</div>
+														</div>
+													<div class="pricing-table-year">
+														<div class="pricing-table-head">
+															<img class="imgposnewup" src="img/Agosto/Premios/MejorWinrateSN.png">
+														</div>											
+													</div>
+												</div>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							</center>
+						</div>
+						<div class="col imgposcolnew">
+							<center>
+							<div class="wrap2">
+								<div class="miswitch2">
+									<div class="swicht-btn" id="swicht-btn">
+										<div class="pricing-wrap-top">
+											<div class="pricing-table">
+												<a>
+												<div class="pricing-table-cont2">
+													<div class="pricing-table-month2">
+														<div class="pricing-table-head">
+														    <img class="imgposnewup" src="img/Agosto/Premios/MejorPromedio.png">
+														</div>
+													</div>
+													<div class="pricing-table-year">
+														<div class="pricing-table-head">
+															<img class="imgposnewup" src="img/Agosto/Premios/MejorPromedioSN.png">
+														</div>
+													</div>
+												</div>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							</center>
+						</div>
+
+						<div class="col imgposcolnew">
+							<center>
+							<div class="wrap3">
+								<div class="miswitch3">
+									<div class="swicht-btn" id="swicht-btn">
+										<div class="pricing-wrap-top">
+											<div class="pricing-table">
+												<a>
+												<div class="pricing-table-cont3">
+													<div class="pricing-table-month3">
+														<div class="pricing-table-head">
+														    <img class="imgposnewup" src="img/Agosto/Premios/MejorJugador.png">
+														</div>
+													</div>
+													<div class="pricing-table-year">
+														<div class="pricing-table-head">
+															<img class="imgposnewup" src="img/Agosto/Premios/MejorJugadorSN.png">
+														</div>
+													</div>
+												</div>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							</center>
+						</div>
+
+						<div class="col imgposcolnew">
+							<center>
+							<div class="wrap4">
+								<div class="miswitch4">
+									<div class="swicht-btn" id="swicht-btn">
+										<div class="pricing-wrap-top">
+											<div class="pricing-table">
+												<a>
+												<div class="pricing-table-cont4">
+													<div class="pricing-table-month4">
+														<div class="pricing-table-head">
+														    <img class="imgposnewup" src="img/Agosto/Premios/MayorCantidadDeVictorias.png">
+														</div>
+													</div>
+													<div class="pricing-table-year">
+														<div class="pricing-table-head">
+															<img class="imgposnewup" src="img/Agosto/Premios/MayorCantidadDeVictoriasSN.png">
+														</div>
+													</div>
+												</div>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							</center>
+						</div>
+
+						<div class="col imgposcolnew">
+							<center>
+							<div class="wrap5">
+								<div class="miswitch5">
+									<div class="swicht-btn" id="swicht-btn">
+										<div class="pricing-wrap-top">
+											<div class="pricing-table">
+												<a>
+												<div class="pricing-table-cont5">
+													<div class="pricing-table-month5">
+														<div class="pricing-table-head">
+															<img class="imgposnewup" src="img/Agosto/Premios/JugadorRevelacion.png">
+														</div>
+													</div>
+													<div class="pricing-table-year">
+														<div class="pricing-table-head">
+															<img class="imgposnewup" src="img/Agosto/Premios/JugadorRevelacionSN.png">
+														</div>
+													</div>
+												</div>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							</center>
+						</div>
+					</div>
+
+					<div class="posbanner"></div>
+
+					<div class="row cont2new">
+						<div class="col cont22new">
+					   		<center>
+							<div class="wrap6">
+								<div class="miswitch6">
+									<div class="swicht-btn" id="swicht-btn">
+										<div class="pricing-wrap-bottom">
+											<div class="pricing-table">
+												<a>
+												<div class="pricing-table-cont6">
+													<div class="pricing-table-month6">
+														<div class="pricing-table-head">
+															<img class="imgposnew" src="img/Agosto/PremiosNew/MayorPromedioEnUnaNoche.png">
+														</div>
+													</div>
+													<div class="pricing-table-year">
+														<div class="pricing-table-head">
+															<img class="imgposnew" src="img/Agosto/PremiosNew/MayorPromedioEnUnaNocheSN.png">
+														</div>
+													</div>
+												</div>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							</center>
+					  	</div>
+
+					  	<div class="col cont22new">
+					   		<center>
+							<div class="wrap7">
+								<div class="miswitch7">
+									<div class="swicht-btn" id="swicht-btn">
+										<div class="pricing-wrap-bottom">
+											<div class="pricing-table">
+												<a>
+												<div class="pricing-table-cont7">
+													<div class="pricing-table-month7">
+														<div class="pricing-table-head">
+															<img class="imgposnew" src="img/Agosto/PremiosNew/MasVecesMejorJugador.png">
+														</div>
+													</div>
+													<div class="pricing-table-year">
+														<div class="pricing-table-head">
+															<img class="imgposnew" src="img/Agosto/PremiosNew/MasVecesMejorJugadorSN.png">
+														</div>
+													</div>
+												</div>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							</center>
+					  	</div>
+
+					  	<div class="col cont22new">
+					   		<center>
+							<div class="wrap8">
+								<div class="miswitch8">
+									<div class="swicht-btn" id="swicht-btn">
+										<div class="pricing-wrap-bottom">
+											<div class="pricing-table">
+												<a>
+												<div class="pricing-table-cont8">
+													<div class="pricing-table-month8">
+														<div class="pricing-table-head">
+															<img class="imgposnew" src="img/Agosto/PremiosNew/MejorPronostico.png">
+														</div>
+													</div>
+													<div class="pricing-table-year">
+														<div class="pricing-table-head">
+															<img class="imgposnew" src="img/Agosto/PremiosNew/MejorPronosticoSN.png">
+														</div>
+													</div>
+												</div>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							</center>
+					  	</div>
+					</div>
+
+					<div class="row cont3">
+						<div class="col cont33">
+					   		<div class="accordion accordion-flush" id="accordionFlushExample">
+							  <div class="accordion-item">
+							    <h2 class="accordion-header" id="flush-headingOne">
+							    	<div class="cont33titulo">Las WolFlex</div>
+							    	<div class="cont33text">
+								 		<p>Son el sistema principal empleado por Historiax para despertar el espíritu competitivo del Clan Wolfs y generar en cada 
+										uno de los lobos las ganas de superarse a sí mismos consiguiendo el dominio de uno o más campeones determinados 
+										para obtener el rendimiento más óptimo posible el cual servirá para  poder ir escalando divisiones...
+										</p>
+									</div>
+							      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+									<center>﹀</center>
+							      </button>
+							    </h2>
+							    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+							    <div class="accordion-body">Bajo el formato de las Clasificatorias Flexibles y basados en las calificaciones que otorga la página oficial de <code>OP.GG</code> los lobos están obligados a mejorar en todos los aspectos técnicos del juego (control del mapa, visión, participación en asesinatos, involucrarse en los diferentes puntos de la Grieta, no perder niveles de experiencia, evitar muertes innecesarias, priorizar objetivos, etc) para lograr conseguir los promedios más elevados entre los competidores y de esa manera poder llevarse las distinciones positivas al finalizar el período de las Wolflex en <code>"La Gala de premiaciones"</code>; y a su vez, evitar las negativas.
+							    <br><br>
+								<center>Con el argumento de "Esta noche llegamos a Diamante" como impulso motivacional principal de Historiax todas las noches los lobos se presentan en la Grieta en busca de la victoria.
+								<br><br>
+								"Nunca se olviden de que el Clan Wolfs invade papu".</center></div>
+							    </div>
+							  </div>
+							</div>
+
+							<!--
+								<div class="row integrantesbtn"><a href="integrantes.html">
+										<button class="btn-integrantes">Integrantes</button></a>
+								</div>
+							-->
+					  	</div>
+					</div>
+
+					<div class="cont4">
+						<div class="cont4banner">
+							<h2>LOS ANTIPREMIOS</h2>
+							<h4>MES DE AGOSTO</h4>
+						</div>
+						<div class="container-fluid">
+							<div id="cont4a" class="row" >
+								<div class="col imgposcol44a">
+									<center>
+										<div class="wrap-a1">
+											<div class="miswitch-a1">
+												<div class="swicht-btn" id="swicht-btn">
+													<div class="pricing-wrap-bottom-a1">
+														<div class="pricing-table">
+															<a>
+															<div class="pricing-table-cont-a1">
+																<div class="pricing-table-month-a1">
+																	<div class="pricing-table-head">
+																		<img class="imgpos4anti" src="img/Agosto/Antipremios/antipremiospeorpromedioenunanoche.png">
+																	</div>
+																</div>
+																<div class="pricing-table-year">
+																	<div class="pricing-table-head">
+																		<img class="imgpos4anti" src="img/Agosto/Antipremios/antipremiospeorpromedioenunanocheSN.png">
+																	</div>
+																</div>
+															</div>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</center>	
+								</div>
+								<div class="col imgposcol44a">
+								    <center>
+										<div class="wrap-a2">
+											<div class="miswitch-a2">
+												<div class="swicht-btn" id="swicht-btn">
+													<div class="pricing-wrap-bottom-a1">
+														<div class="pricing-table">
+															<a>
+															<div class="pricing-table-cont-a2">
+																<div class="pricing-table-month-a2">
+																	<div class="pricing-table-head">
+																	   <img class="imgpos4anti" src="img/Agosto/Antipremios/antipremioslagrandececion.png">
+																	</div>
+																</div>
+																<div class="pricing-table-year">
+																	<div class="pricing-table-head">
+																		<img class="imgpos4anti" src="img/Agosto/Antipremios/antipremioslagrandececionSN.png">
+																	</div>
+																</div>
+															</div>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</center>
+								</div>
+
+								<div class="col imgposcol44a">
+									<center>
+										<div class="wrap-a3">
+											<div class="miswitch-a3">
+												<div class="swicht-btn" id="swicht-btn">
+													<div class="pricing-wrap-bottom-a1">
+														<div class="pricing-table">
+															<a>
+															<div class="pricing-table-cont-a3">
+																<div class="pricing-table-month-a3">
+																	<div class="pricing-table-head">
+																	    <img class="imgpos4anti" src="img/Agosto/Antipremios/antipremiospeorwinrate.png">
+																	</div>
+																</div>
+																<div class="pricing-table-year">
+																	<div class="pricing-table-head">
+																		<img class="imgpos4anti" src="img/Agosto/Antipremios/antipremiospeorwinrateSN.png">
+																	</div>
+																</div>
+															</div>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</center>
+								</div>
+
+								<div class="col imgposcol44a">
+									<center>
+										<div class="wrap-a4">
+											<div class="miswitch-a4">
+												<div class="swicht-btn" id="swicht-btn">
+													<div class="pricing-wrap-bottom-a1">
+														<div class="pricing-table">
+															<a>
+															<div class="pricing-table-cont-a4">
+																<div class="pricing-table-month-a4">
+																	<div class="pricing-table-head">
+																	    <img class="imgpos4anti" src="img/Agosto/Antipremios/antipremiospeorjugadordelclan.png">
+																	</div>
+																</div>
+																<div class="pricing-table-year">
+																	<div class="pricing-table-head">
+																		<img class="imgpos4anti" src="img/Agosto/Antipremios/antipremiospeorjugadordelclanSN.png">
+																	</div>
+																</div>
+															</div>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</center>
+								</div>
+
+								<div class="col imgposcol44a">
+									<center>
+										<div class="wrap-a5">
+											<div class="miswitch-a5">
+												<div class="swicht-btn" id="swicht-btn">
+													<div class="pricing-wrap-bottom-a1">
+														<div class="pricing-table">
+															<a>
+															<div class="pricing-table-cont-a5">
+																<div class="pricing-table-month-a5">
+																	<div class="pricing-table-head">
+																	    <img class="imgpos4anti" src="img/Agosto/Antipremios/antipremiospeorpromedio.png">
+																	</div>
+																</div>
+																<div class="pricing-table-year">
+																	<div class="pricing-table-head">
+																		<img class="imgpos4anti" src="img/Agosto/Antipremios/antipremiospeorpromedioSN.png">
+																	</div>
+																</div>
+															</div>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</center>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row cont5">
+						<img class="lineaposest" src="img/lineapos.png">
+						<div class="cont5banner">
+							<h4>ESTADISTICAS</h4>
+						</div>
+					</div>
+					<div class="row cont55">
+						<div class="cont5banner-semanas">
+							<h6>13 / AGOSTO / 2021</h6>
+						</div>
+						<div class="row cont55b">
+							<!-- TABLA -->
+
+
+						<table id="mejorJugador" border="1">
+        <tr>
+            <th>#</th>
+            <th>Nick</th>
+            <th>Puntos</th>
+        </tr>
+    </table>
+
+
+
+
+								<!-- FIN TABLA -->
+						</div>
+					</div>
+						<!---------------------------------------------GRAFICA JS---------------->
+					<div class="row rowgraphic">
+						<div class="col rowgraphic">
+							<div class="grafica">
+								<div id='myDivAgosto'></div>
+								<div class="graficainf">
+									INSTRUCCIONES SOBRE EL USO DE LA GRÁFICA.
+									<br><br>
+
+									Para mostrar a un integrante en específico en la gráfica basta con dar doble clic al jugador situado en la lista derecha de la gráfica.
+									<br>
+
+									Puedes agregar jugadores a la gráfica para comparar tus promedios seleccionando con un clic a un jugador en la lista situada a la derecha de la gráfica.
+									<br>
+
+									Para volver a mostrar todos los jugadores sobre la gráfica basta con dar doble clic a cualquier jugador de la lista ya mencionada.
+
+									<br><br>¡El Clan Wolfs Invade PAPU!</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-compat/3.0.0-alpha1/jquery.min.js"></script>
+	<script src="js/jsagosto.js"></script>
+	<script src="js/confetti.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/stylepos.js"></script>
+</body>
+</html>

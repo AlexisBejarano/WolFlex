@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Gala Wolflex</title>
+
+
+	<!-- -------------------------------GRAFICA JS -------------->
+	<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+	<!-- ------------Bootstrap 5 -------------->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<!-- -----Css -------------->
+	<link rel="stylesheet" type="text/css" href="css/stylebackground.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/pantallacarga.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<!--Responive-->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!--Librerias-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	
+	<div class="container-fluid" id="onload">
+		<div class="row">
+			<div class="col">
+				<img class="loadergif" src="img/loader.gif">
+			</div>
+		</div>
+		<div class="row cargandotext">
+			<h4>Iniciando Invade...</h4>
+		</div>
+	</div>
+
+
+		<div class="menu-bottom">
+			<div class="row alertwol">
+				<div class="alert alert-warning alert-dismissible fade show" role="alert">
+			  	<strong>¿No te carga bien la página?</strong> <br>Utiliza Ctrl + Shift + R para actualizar la Caché.
+			  		<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+				</div>
+			</div>
+			<!-- CONTADOR--> 		
+			<section>
+		
+			    <p>
+			    	<div class="texto-inicio-temporada">
+				    	FECHA APROXIMADA DE RESULTADOS
+			   		</div>
+			    </p>
+			    	<div class="row contador">
+				    	<div class="col contador-clase">
+				    		<div class="contador-texto">
+								<span id="days"></span>
+								<br>
+								<div class="contador-linea">
+									Días
+								</div>
+							</div>
+						</div>
+						<div class="col contador-clase">
+							<div class="contador-texto">
+								<span id="hours"></span>
+								<br>
+								<div class="contador-linea">
+									Horas
+								</div>
+							</div>
+						</div>
+						<div class="col contador-clase">
+							<div class="contador-texto">
+								<span id="minutes"></span>
+								<br>
+								<div class="contador-linea">
+									Minutos
+								</div>
+							</div>
+						</div>
+						<div class="col contador-clase">
+							<div class="contador-texto">
+								<span id="seconds"></span>
+								<br>
+								<div class="contador-linea">
+									Segundos
+								</div>
+							</div>
+						</div>
+					</div>
+				
+			</section>
+			<!-- FIN CONTADOR -->
+			<a href="marzo.html">
+				<label class="iconobtn">
+					<div class="textosabermas">Marzo</div>
+				</label>
+			</a>
+			<a href="agosto.html">
+				<label class="iconobtn">
+					<div class="textosabermas">Agosto</div>
+				</label>
+			</a>
+			<div class="textogala">
+				<p>GALA DE PREMIACIONES</p>
+				<h6>Update 06/09/2021</h6>
+				<h6>By AlexisBejarano</h6>
+			</div>
+		</div>
+		<div id="carouselExampleIndicator" class="carousel slide  carousel-fade" data-bs-ride="carousel">
+		  	<div class="carousel-inner">
+		  		<div class="carousel-item  active">
+		    		<div class="wolflexbannerb">
+						<div class="wolflexbanner animate__fadeInLeft">
+							<h1>WolFlex</h1>
+						</div>
+						<div class="leaguebenner animate__fadeInLeftBig">
+							<h3>League Of Legends</h3>
+						</div>
+						<div class="animate__zoomIn">
+							<img class="wolflexadorno" src="img/Linea3Ba.png">
+						</div>
+					</div>
+		   	  		<video id="video" class="fondovideo" loop autoplay preload muted>
+						<source src="https://lolstatic-a.akamaihd.net/frontpage/apps/prod/rg-league-display-2017/en_US/cb24025fade09e3f965776440dffcc65024d3266/assets/img/content/splash/videos/animated-kindred.webm" type='video/webm; codecs="vp8,vorbis"' />
+					</video>
+		   	  	</div>
+		  		<div class="carousel-item">
+		      		<div class="wolflexbannerb">
+						<div class="wolflexbanner">
+							<h1>WolFlex</h1>
+						</div>
+						<div class="leaguebenner">
+							<h3>League Of Legends</h3>
+						</div>
+						<img class="wolflexadorno" src="img/Linea3Ba.png">
+					</div>
+		      		<video id="video" loop autoplay preload muted>
+						<source src="img/webm/animated-vs-login.webm" type='video/webm; codecs="vp8,vorbis"' />
+					</video>
+		      	</div>
+		      	<div class="carousel-item">
+		      		<div class="wolflexbannerb">
+						<div class="wolflexbanner">
+							<h1>WolFlex</h1>
+						</div>
+						<div class="leaguebenner">
+							<h3>League Of Legends</h3>
+						</div>
+						<img class="wolflexadorno" src="img/Linea3Ba.png">
+					</div>
+		      		<video id="video" loop autoplay preload muted>
+						<source src="img/webm/animated-lucian.webm" type='video/webm; codecs="vp8,vorbis"' />
+					</video>
+		      	</div>
+		    	
+		   		<div class="carousel-item">
+		   			<div class="wolflexbannerb">
+						<div class="wolflexbanner">
+							<h1>WolFlex</h1>
+						</div>
+						<div class="leaguebenner">
+							<h3>League Of Legends</h3>
+						</div>
+						<img class="wolflexadorno" src="img/Linea3Ba.png">
+					</div>
+		      		<video id="video" loop autoplay preload muted>
+						<source src="img/webm/animated-freljord.webm" type='video/webm; codecs="vp8,vorbis"' />
+					</video>
+		      	</div>
+			</div>
+		</div>
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+	<script src="js/contador.js"></script>
+	<script src="js/pantallacarga.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="js/jquery-3.1.0.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+@media only screen and (min-width: 250px) and (max-width: 324px){
+	body{
+		width:100%;
+	}
+	html{ background-color: #fff; }
+	.wolflexbannerb{
+		top: 180px;
+		margin: 0px auto;
+		width: auto;
+	}
+	.wolflexadorno{
+		margin-top: -25px;
+		height: 20px;
+	}
+	h1{
+		font-size: 4.5rem;
+	}
+	.leaguebenner{
+		margin-top: -20px;
+	}
+	h3{
+		font-size: 2rem;
+	}
+	.alert-warning{
+		opacity: 0%;
+	}
+
+	/* MENU */
+	.iconobtn{
+		margin: 3px auto;
+	}
+	.menu-bottom{
+		height: 420px;
+	}
+	.contador{
+		max-width: 250px;
+	}
+	.contador-clase{
+		margin: 1px;
+	}
+
+}
+@media only screen and (min-width: 325px) and (max-width: 550px){
+	body{
+		width:100%;
+	}
+	html{ background-color: #fff; }
+	.wolflexbannerb{
+		top: 180px;
+		margin: 0px auto;
+		width: auto;
+	}
+	.wolflexadorno{
+		margin-top: -25px;
+		height: 30px;
+	}
+	h1{
+		font-size: 4.5rem;
+	}
+	.leaguebenner{
+		margin-top: -28px;
+	}
+	h3{
+		font-size: 2.3rem;
+	}
+	.alert-warning{
+		opacity: 0%;
+	}
+
+	/* MENU */
+	.iconobtn{
+		margin: 3px auto;
+	}
+	.contador-linea{
+		width: 70px;
+	}
+	.menu-bottom{
+		height: 315px;
+	}
+	.contador{
+		max-width: 460px;
+	}
+	.contador-clase{
+		margin: 1px;
+		padding: 0px;
+	}
+}
+/**** escritorio ***/
+@media only screen and (min-width: 551px) and (max-width: 999px){
+	body{
+		width:100%;
+	}
+	html{ background-color: #fff; }
+	.wolflexbannerb{
+		margin: 0 auto;
+		width: auto;
+	}
+	h1{
+		font-size: 6rem;
+	}
+	h3{
+		font-size: 3.5rem;
+	}
+	.wolflexadorno{
+		height: 45px;
+	}
+	.wolflexbannerb{
+		top: 70px;
+	}
+	.alert-warning{
+		opacity: 0%;
+	}
+}

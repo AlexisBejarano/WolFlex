@@ -1,0 +1,540 @@
+h2 {
+	font-size: 40px;
+}
+h5 {
+	font-size: 1.25rem;
+}
+h6 {
+	bottom: 0;
+	font-size: 20px;
+	font-family: 'Crimson Text', serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #000000!important;
+}
+
+canvas {
+  display: block;
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+  height: 100%;
+  width: 100%;
+}
+
+#content {
+  text-align: center;
+  width: 130px;
+  position: fixed;
+  z-index: 9999;
+  right: 2%;
+  bottom: 2%;
+  color: silver;
+  font-family: verdana;
+  font-weight: bold;
+}
+
+.buttonContainer {
+  display: inline-block;
+	width: 130px;
+	opacity: 0%;
+}
+#startButton{
+	margin-bottom: 5px;
+	font-size: 15px;
+	border-radius: 7px;
+  opacity: 20%;
+  font-family: 'Philosopher', sans-serif;
+}
+
+#startButton:hover{
+	opacity: 100%;
+	background-color: #fff;
+}
+
+#stopButton{
+	font-size: 15px;
+	border-radius: 7px;
+  opacity: 20%;
+  font-family: 'Philosopher', sans-serif;
+}
+
+#stopButton:hover{
+	opacity: 100%;
+	background-color: #fff;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+.container-fluid{
+	padding: 0px!important;
+}
+.iconobtnreg {
+	position: fixed;
+	top: 20px;
+  right: 2%;
+	width: 160px;
+	height: 45px;	
+	background-color: hsla(0, 0%, 0%, .5);
+	border: solid hsla(0, 100%, 100%, .7);;
+	color: hsla(0, 100%, 100%, .8);
+	font-family: 'Philosopher', sans-serif;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 3px;
+	opacity: 50%;
+	z-index: 999;
+}
+.iconobtnreg:hover{
+	background-color: hsla(0, 100%, 100%, .1);
+	transition: background-color .9s ease;
+	opacity: 100%;
+}
+.regresar{
+	position: relative;
+	padding: 5% 13%;
+	font-family: 'Philosopher', sans-serif;
+}
+.regresar:hover{
+	background-color: hsla(0, 100%, 100%, .1);
+	color: #fff;
+	transition: background-color .9s;
+	transition: color .9s;
+}
+.banner {
+	position: relative;
+	color: #fff;
+	padding: 30px 0px 0px 0px;
+	margin: 0px auto 30px auto;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+.posbanner {
+	position: relative;
+	max-width: 900px;
+	margin: 0 auto;
+	color: #000000;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	border-top: dashed 2px rgba(0,0,0,0.4);
+}
+.imgposcol{
+	position: relative;
+	width: 190px;
+	height: 480px;
+}
+.imgposcolnew{
+	position: relative;
+	width: 220px;
+	height: 480px;
+	padding: 0px;
+}
+#cont1 {
+	position: relative;
+	padding: 0px;
+	max-width: 1150px;
+	margin: 0px auto 30px auto;
+}
+#cont1mayo {
+	position: relative;
+	top: 10px;
+	max-width: 900px;
+	margin: 0px auto;
+
+}
+.imgpos {
+	position: relative;
+	display:block;
+	margin: 0px auto;
+	height: 460px;
+	width: 190px;
+}
+.imgposnewup {
+	position: relative;
+	display:block;
+	margin: 0px auto;
+	width: 220px;
+	height: 460px;
+}
+.cont2 {
+	position: relative;
+	top: 10px;
+	width: 100%;
+	height: 110px;
+	background-color: #fff;
+	margin: 0px auto;
+}
+.cont22 {
+	position: relative;
+	top: 15px;
+	background-color: #fff;
+	color: #000000;
+	font-family: 'Nanum Myeongjo', serif;
+	text-align: center;
+}
+.imgposnew {
+	position: relative;
+	display:block;
+	margin: 0px auto;
+	height: 335px;
+	width: 225px;
+}
+.cont2new {
+	position: relative;
+	max-width: 800px;
+	margin: 0px auto 55px auto;
+}
+.cont22new {
+	position: relative;
+	top: 15px;
+	padding: 0px;
+}
+.cont3 {
+	position: relative;
+	width: 100%;
+	background-color: #DEDBDB;
+	z-index: 1;
+	margin: 0px auto;
+}
+.accordion-header{
+	background-color: #DEDBDB;
+	padding-top: 15px;
+}
+.accordion-button{
+	padding: 10px 0px 10px 0px;
+}
+.cont33 {
+	position: relative;
+	width: 100%;
+	padding: .5% 14%;
+	color: #000000;
+	font-family: 'Nanum Myeongjo', serif;
+	text-align: justify;
+}
+.cont33titulo {
+	position: relative;
+	left: 7%;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 27px;
+	background-color: 
+}
+.cont33text{
+	font-size: 15px;
+	padding-bottom: 5px;
+}
+.accordion-button{
+	display: block!important;
+	background-color: #DEDBDB!important;
+}
+.accordion-body{
+	background-color: #DEDBDB!important;
+}
+.cont4 {
+	position: relative;
+	padding-bottom: 110px;
+	background-color: rgb(3,6,8);
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+.cont4banner{
+	position: relative;
+	top: 50px;
+	height: 100px;
+	margin-bottom: 30px;
+	color: #fff;
+}
+
+#cont4 {
+	position: relative;
+	top: 50px;
+	max-width: 1050px;
+	margin: 0px auto;
+	font-family: 'Cinzel', serif;
+	color: #fff;
+}
+#cont4a {
+	position: relative;
+	top: 90px;
+	max-width: 1150px;
+	margin: 0px auto;
+	font-family: 'Cinzel', serif;
+}
+.imgposcol4{
+	position: relative;
+	width: 230px;
+	margin-bottom: -55px;
+	padding: 0px;
+}
+.imgposcol4a{
+	position: relative;
+	width: 310px;
+	height: 461px;
+	margin-bottom: -56px;
+}
+.imgpos4 {
+	position: relative;
+	top: -65px;
+	width: 230px;
+}
+.imgpos4anti {
+	position: relative;
+	top: 0px;
+	width: 210px;
+	height: 340px;
+}
+.imgposcol44 {
+	position: relative;
+	top: -24px;
+	width: 230px;
+	margin-bottom: -83px;
+	padding: 0px;
+}
+.imgposcol44a {
+	position: relative;
+	width: 210px;
+	height: 385px;
+	margin: 0px auto 20px auto;
+	padding: 0px;
+}
+.imgposcol4nom1{
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	width: 233px;
+	top: 54px;
+}
+.imgposcol4nom2{
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	width: 190px;
+	top: 65px;
+}
+.imgposcol4pos1{
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	width: 190px;
+	top: 225px;
+}
+.integrantesbtn{
+	position: relative;
+	width: 100%;
+	top: -16px;
+	margin: 0 auto 0 auto;
+}
+.btn-integrantes{
+	position: absolute;
+	width: 140px;
+	right: 5%;
+	border-radius: 5px;
+}
+.cont5 {
+	position: relative;
+	top: -26px;
+	width: 75%;
+	margin: 0px auto;
+	z-index: 20;
+}
+.lineaposest{
+	position: absolute;
+	width: 100%;
+	height: 48px;
+}
+.cont5banner{
+	position: relative;
+	margin-top: 10px;
+	color: #fff;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+
+.cont5banner-semanas{
+	position: relative;
+	margin-top: 50px;
+	color: #000000;
+	text-align: center;
+}
+
+.cont55{
+	position: relative;
+	top: -48px;
+	width: 100%;
+	margin: 0px auto;
+	background-color: #EEEEEE;
+	font-family: 'Cinzel', serif;
+	background: url(../img/concept-annie-02.jpg);
+  	background-position: center;
+  	background-repeat: no-repeat;
+ 	 background-size: cover;
+  	position: relative;
+}
+.cont55a{
+	position: relative;
+	padding: 75px 0;
+	max-width: 1330px;
+	margin: 0 auto -15px auto;
+	text-align: center;
+}
+
+.nopadding {
+	padding: 0px;
+}
+
+.cont55b{
+	position: relative;
+	padding: 20px 0;
+	max-width: 1100px;
+	margin: 0px auto 35px auto;
+	text-align: center;
+}
+
+.card {
+	margin: 20px auto;
+	box-shadow: 0px 10px 15px #999;
+	color: #fff;
+	border-radius: 12px 12px 0px 0px;
+	border: 0;
+	width: 15rem !important;
+	opacity: 85%;
+}
+
+.card-b {
+	margin: 20px auto;
+	box-shadow: 0px 10px 15px #999;
+	color: #fff;
+	background-color: #fff;
+	border-radius: 12px 12px 0px 0px;
+	border: 0;
+	opacity: 85%;
+	width: 241px !important;
+}
+
+.card-c {
+	margin: 20px auto;
+	box-shadow: 0px 10px 15px #999;
+	color: #fff;
+	background-color: #fff;
+	border-radius: 12px 12px 0px 0px;
+	border: 0;
+	opacity: 85%;
+	width: 320px !important;
+}
+
+.card-img-top{
+	position: relative;
+	height: 160px;
+	width: 160px;
+	margin: 0 auto;
+	padding: 0;
+}
+.card-img-top2{
+	position: relative;
+	height: 140px;
+	width: 270px;
+	margin: 0 auto;
+	padding: 0;
+}
+.card-body{
+	position: relative;
+	padding: 30px 15px 16px 15px;
+	border-radius: 10px 10px 0px 0px;
+}
+.colorcard-body-uno{
+	background-color: #771503;
+}
+.colorcard-body-dos{
+	background-color: #003e55;
+}
+.colorcard-body-tres{
+	background-color: #61425b;
+}
+.colorcard-body-cuatro{
+	background-color: #005a62;
+}
+.colorcard-body-cinco{
+	background-color: #644018;
+}
+.colorcard-body-seis{
+	background-color: #476142;
+}
+.colorcard-body-siete{
+	background-color: #614242;
+}
+.card-cont{
+	background-color: #fff;
+}
+.imgcuadroscard{
+	position: relative;
+	bottom: -10px;
+}
+.rowgraphic{
+	position: relative;
+	top: -30px;
+	width: 100%;
+	background-color: #fff;
+	--bs-gutter-x: 0!important;
+}
+.table{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	width: 80%;
+}
+.colortabsv{
+	background: linear-gradient(to top, rgba(205, 241, 200,1) 3%, rgba(255,255,255,0) 20%);
+}
+.colortabsn{
+	background: linear-gradient(to top, rgba(242, 221, 151,1) 3%, rgba(255,255,255,0) 20%);
+}
+.colortabsr{
+	background: linear-gradient(to top, rgba(242, 151, 151,1) 3%, rgba(255,255,255,0) 20%);
+}
+.grafica{
+	position: relative;
+	width: 80% !important;
+	margin: 10px auto;
+
+}
+.graficainf{
+	position: relative;
+	max-width: 800px;
+	margin: 0px auto;
+	text-align: center;
+	color: #000000;
+}
+.js-plotly-plot .plotly .main-svg{
+	left: -40px;
+}
+
+/*FONDO*/
+.imgfondcont2 {
+	position: absolute;
+	background-image: url("../img/Polino.png");
+	background-repeat: no-repeat;
+	top: 25rem;
+	width: 100%;
+	height: 100%;
+}
+.imgfondcont3 {
+	position:absolute;
+	background-color:  #fff;
+	top: 79px;
+	width: 100%;
+	height: 1640px;
+}
+.imgfondcont3new {
+	position:absolute;
+	background-color:  #fff;
+	top: 79px;
+	width: 100%;
+	height: 211rem;
+}
+

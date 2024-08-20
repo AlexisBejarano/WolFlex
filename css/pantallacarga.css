@@ -1,0 +1,27 @@
+.loadergif{
+	position: relative;
+	display: block;
+	top: 26vh;
+	width: 200px;
+	margin: 0 auto;
+}
+.cargandotext{
+	position: relative;
+	top: 24vh;
+}
+#onload{
+	opacity: 100%;
+	transition: all 1s ease;
+	position: fixed;
+	background-color: #fff;
+	height: 100%;
+	z-index: 4;	
+	color: #000000;
+	text-align: center;
+}
+.container-fluid {
+	width: 100%;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+}

@@ -1,0 +1,8 @@
+RewriteBase /
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ᶺ(.*)$ $1.html
+
+RewriteCond% {HTTPS}
+RewriteRule ^ (. *) $ Https: //% {HTTP_HOST}% {REQUEST_URI} [L, R = 301]
